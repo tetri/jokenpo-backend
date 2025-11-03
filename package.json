@@ -1,0 +1,16 @@
+{
+  "name": "jokenpo-backend",
+  "version": "1.0.0",
+  "description": "Backend puro para Jokenpo com Socket.IO",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
